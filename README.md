@@ -3,8 +3,8 @@
 Instalar o git
 <p aling="center">Selecione o sistema operacional da sua máquina, em seguida faça o download.</p>
 <br>
-<img src="" alt="" width="400"> 
-<img src="" alt="" width="400"> 
+<img src="docs/img/Captura de tela 2025-01-24 094027.png" alt="" width="400"> 
+<img src="docs/img/Captura de tela 2025-01-24 094111.png" alt="" width="400"> 
 </a> 
 </p>
     
@@ -33,22 +33,15 @@ Instalar o git
 ###
 `
 <p align= "center"> 
-Clique no  perfil no canto da tela.
-<img src="" alt=""  widht="400">
-<br>
-```
-Clique no seu perfil
-```
-<p> <img src="" width="400" alt=""> </p>
-<br> <br>
+
 
 Clique em repositorio e depois em novo para criar.
- <p><img src="" width="400" alt=""> </p>
+ <p><img src="docs/img/Captura de tela 2025-01-24 094210.png" width="400" alt=""> </p>
 
 Aqui você vai escolher o nome do projento, depois você dar uma descrição ou não.
 Depois você escolher se o seu repositorio, seja publico ou privado e logo após clique em criar repositorio.
 
-<img src="" width="400" alt="">
+<img src="docs/img/Captura de tela 2025-01-24 094245.png" width="400" alt="">
 
 
 
