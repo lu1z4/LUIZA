@@ -1,5 +1,6 @@
 # MANUAL DE UTILIZAÇÃO DO SISTEMA/SITE
-## CAPITULO 1
+## Capitulo 1
+###
 Instalar o git
 <p aling="center">Selecione o sistema operacional da sua máquina, em seguida faça o download.</p>
 <br>
@@ -14,8 +15,8 @@ Instalar o git
 <li>git config--global user.name</li>
 <li>git confing --global user.email</li>
 <li>shh-keygen (Criador de senhar)</li>
-<li>cd. (Pra entrar)  cd..(Para voltar)</li>
-<li>ls (Pra movimentação das pastas)</li>
+<li>cd. (Para entrar)  cd..(Para voltar)</li>
+<li>ls (Para vizualização das pastas)</li>
 </ul>
 
 
@@ -29,7 +30,7 @@ Instalar o git
 `
 </ul>
 
-## capitulo 2 - Criando repositorio do git 
+## Capitulo 2 - Criando repositorio do git 
 ###
 `
 <p align= "center"> 
@@ -48,17 +49,32 @@ Depois você escolher se o seu repositorio, seja publico ou privado e logo após
 </p>
 
 `
-### Capitulo #3 - Subindo arquivos no git 
+## Capitulo 3 - Subindo arquivos no git 
+###
 <ul>
 
 <li> git reset </li>
 <li> git status </li>
-<li>git add . </li>
+<li> git add . </li>
 <li> git status </li>
-<li>git commit -m commit " Update file Readme" </li>
-<li>git branch git push -u origin master </li>
+<li> git commit -m commit " Update file Readme" </li>
+<li> git branch git push -u origin master </li>
 
 </ul>
 `
+
+### Capitulo 4 - Alterando Master para Develop
+###
+<li> git branch</li>
+<li> git branch develop</li>
+<li> git branch</li>
+<li> git pull origin master</li>
+
+ ## Capitulo 5 - Trabalhando com o mesmo repertorio em dispositivos diferentes  
+###
+<li> Istalar o Github</li>
+<li> Reiniciar o computador</li>
+<li> Instalar Visual Studio code</li>
+<li> 
 
 `git status`
