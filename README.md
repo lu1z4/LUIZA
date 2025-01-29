@@ -53,7 +53,6 @@ Depois você escolher se o seu repositorio, seja publico ou privado e logo após
 ###
 <ul>
 
-<li> git reset </li>
 <li> git status </li>
 <li> git add . </li>
 <li> git status </li>
@@ -72,9 +71,19 @@ Depois você escolher se o seu repositorio, seja publico ou privado e logo após
 
  ## Capitulo 5 - Trabalhando com o mesmo repertorio em dispositivos diferentes  
 ###
-<li> Istalar o Github</li>
-<li> Reiniciar o computador</li>
-<li> Instalar Visual Studio code</li>
-<li> 
+<li> Instalar GitHub
+<li> Reiniciar computador
+<li> Instalar Visual Code Studio
+ 
+<li> git --version
+<li> git config --global user.name "Nome de usuario"
+<li> git config --global user.email Email utilizado
+<li> ssh keygen (Enter e digitar a senha duas vezes)
+<li> cd .\.ssh
+<li> ls
+<li> cat .\pasta.pub
+<li> git clone (+ codigo ssh do seu github)
+ <li> (Entrar na pasta Docments e pasta com seu nome)
+<li> code .
 
 `git status`
