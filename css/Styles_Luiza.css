@@ -50,7 +50,17 @@ h1, h2 {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    max-width: 250px;
+    max-width: 300px;
+    text-align: center;
+}
+ 
+.atores{
+    background: rgb(255, 243, 243);
+    border: 1px solid #fae7e7;
+    border-radius: 8px;
+    box-shadow: o 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 150px;
     text-align: center;
 }
 

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="/css/Styles_Luiza.css">
+    <title>Catalogo De Filmes</title>
+
+</head>
+<body>
+    <header>
+        <h1><span>Simplesmente Aconteceu</span> </h1>
+    </header>
+    <div class="contrainer">
+        <section class="intro">
+            <p>Romance/Comédia </p>
+            <p>+14</p>
+        </section>
+    </div>
+       <section class="category">
+        <h2></h2>
+        <div class="grid">
+            <div class="card">
+                <a href="https://youtu.be/cXmiics0BTU?feature=shared" target="_blank" alt="Filme 1">
+                    <img src="https://br.web.img3.acsta.net/pictures/14/12/11/15/29/051042.jpg" alt="" width="350">
+                </a>
+                <p>Alex e Rosie são amigos inseparáveis que cresceram juntos em Londres, compartilhando entre si suas melhores experiências. Tudo muda quando Alex ganha uma bolsa de estudos e passa a morar nos EUA.
+                    Separados, seus caminhos agora são outros. Mas nos tempos de hoje é impossível não se conectar. E, em se tratando de amor, o difícil é fazer as escolhas certas. </p>
+            </div>
+            <section class="category">
+                <h2>Elenco</h2>
+                <div class="grid">
+                    <div class="atores">
+                        <img src="https://br.web.img2.acsta.net/pictures/19/03/08/16/43/0584669.jpg" alt="" width="150">
+                        <h3>Lily Collins</h3>
+                        <p><u>Interpreta</u>: Rosie Dunne </p>
+                
+                    </div>
+                    <div class="atores">
+                        <img src="" alt="" width="400px">
+                        <h3></h3>
+                        <p>Interpreta </p>
+                    </div>
+                    <div class="atores">
+                        <img src="" alt="" width="400px">
+                        <h3></h3>
+                        <p>Interpreta </p>
+                    </div>
+                    <div class="atores">
+                        <img src="" alt="" width="400px">
+                        <h3></h3>
+                        <p>Interpreta </p>
+                    </div>
+                </div>
+            </section>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

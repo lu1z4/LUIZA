@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="/css/Styles_Luiza.css">
+    <title>Catalogo De Filmes</title>
+
+</head>
+<body>
+    <header>
+        <h1><span>A Culpa é das Estrelas</span> </h1>
+    </header>
+    <div class="contrainer">
+        <section class="intro">
+            <p>Romance/Comédia</p>
+            <P>+12</P>
+        </section>
+    </div>
+       <section class="category">
+        <h2></h2>
+        <div class="grid">
+            <div class="card">
+                <a href="https://youtu.be/lFOOZJ1UChg?feature=shared" target="_blank" alt="Filme 1" >
+                    <img src="https://i.pinimg.com/236x/8b/e1/f4/8be1f44589e36cc24a31ab609db480d3.jpg" alt="" width="400">
+                </a>
+                <p>Hazel Grace Lancaster e Augustus Waters são dois adolescentes que se conhecem em um grupo de apoio para pacientes com câncer. 
+                    Por causa da doença, Hazel sempre descartou a ideia de se envolver amorosamente, mas acaba cedendo ao se apaixonar por Augustus. Juntos, eles viajam para Amsterdã, onde embarcam em uma jornada inesquecível. Uma trama inesquecivel.</p>
+            </div>
+            <section class="category">
+                <h2>Elenco</h2>
+                <div class="grid">
+                    <div class="atores">
+                        <img src="https://br.web.img3.acsta.net/c_310_420/pictures/18/07/26/18/58/0480633.jpg" alt="" width="170">
+                        <h3>Shailene Woodley</h3>
+                        <p><u>Interpreta</u>: Hazel Grace</p>
+                
+                    </div>
+                    <div class="atores">
+                        <img src="https://m.media-amazon.com/images/M/MV5BNTNiOWI0ZTUtNmU4Yy00NTJmLWE0YzMtY2I1N2U1MTY0ZTE5XkEyXkFqcGc@._V1_.jpg" alt="" width="170">
+                        <h3>Ansel Elgort</h3>
+                        <p><u>Interpreta</u>: Augustus Waters</p>
+                    </div>
+                    <div class="atores">
+                        <img src="https://cdn.pensador.com/img/authors/jo/hn/john-green-l.jpg" alt="" width="150px">
+                        <h3>John Green</h3>
+                        <p><u>Interpreta</u>: Little Girl's </p>
+                    </div>
+                    <div class="atores">
+                        <img src="https://aclassactny.com/wp-content/uploads/2017/04/MV5BYzc0OGU1MDEtMTExNS00ZDViLWJkZGQtZmQ3M2FjMDNhYWMzXkEyXkFqcGdeQXVyNjk2NTE3NQ@@._V1_.jpg" alt="" width="190px">
+                        <h3>Nat Wolff</h3>
+                        <p><u>Interpreta</u>: Isaac</p>
+                    </div>
+                </div>
+            </section>
+            <ul>
+                <strong>Informações:</strong>
+                 <p>Data de lançamento: 5 de junho de 2014</p>
+                 <p>Diretor: Josh Boone</p>
+                 <p>Roteiro: Josh Boone, Scott Neustadter, Michael H. Weber</p> 
+                 <P></P>Baseado em: The Fault in Our Stars, de John Green</p>
+            </ul>
+           
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

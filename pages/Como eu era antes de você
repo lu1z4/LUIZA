@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="/css/Styles_Luiza.css">
+    <title>Catalogo De Filmes</title>
+
+</head>
+<body>
+    <header>
+        <h1><span>Como eu era antes de você</span> </h1>
+    </header>
+    <div class="contrainer">
+        <section class="intro">
+            <p>Romance/Drama</p>
+            <p>+12</p>
+        </section>
+    </div>
+       <section class="category">
+        <h2></h2>
+        <div class="grid">
+            <div class="card">
+                <a href="https://youtu.be/PnqUs3xiAVI?feature=shared" target="_blank" alt="Filme 1">
+                    <img src="https://br.web.img3.acsta.net/c_310_420/pictures/16/02/03/19/11/303307.jpg" alt="" width="400">
+                </a>
+               <p>Will Traynor, de 35 anos, é inteligente, rico e mal-humorado. Preso a uma cadeira de rodas depois de um acidente de moto, o antes ativo e esportivo Will desconta toda a sua amargura em quem estiver por perto e planeja dar um fim ao seu sofrimento. O que Will não sabe é que Lou está prestes a trazer cor a sua vida.</p>
+            </div>
+            <section class="category">
+                <h2>Elenco</h2>
+                <div class="grid">
+                    <div class="atores">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Sam_Claflin_2014.jpg" alt="" width="150">
+                        <h3>Sam Claflin</h3>
+                        <p><u>Interpreta</u>: William Traynor </p>
+                
+                    </div>
+                    <div class="atores">
+                        <img src="https://m.media-amazon.com/images/M/MV5BNjg3OTg4MDczMl5BMl5BanBnXkFtZTgwODc0NzUwNjE@._V1_.jpg" alt="" width="150">
+                        <h3>Emilia Clarke</h3>
+                        <p><u>Interpreta</u>: Louisa Clark</p>
+                    </div>
+                    <div class="atores">
+                        <img src="https://m.media-amazon.com/images/M/MV5BMTU1NTQ1Nzg5NF5BMl5BanBnXkFtZTcwNTIzNTIwNg@@._V1_FMjpg_UX1000_.jpg" alt="" width="170px">
+                        <h3>Matthew Lewis</h3>
+                        <p><u>Interpreta</u>: Patrick</p>
+                    </div>
+                    <div class="atores">
+                        <img src="https://media.themoviedb.org/t/p/w500/3xHwq5lchAI6mfW0aGQOEijexv6.jpg" alt="" width="150">
+                        <h3>Charles Dance</h3>
+                        <p><u>Interpreta</u>: Steven Traynor </p>
+                    </div>
+                </div>
+            </section>
+            <ul>
+                <strong>Informações:</strong>
+                 <p>Data de lançamento: 16 de junho de 2016</p>
+                 <p>Diretor: Thea Sharrock</p>
+                 <p>Companhia(s) produtora(s):  Metro-Goldwyn-Mayer; New Line Cinema</p> 
+                 <P></P>Roteiro: Jojo Moyes </p>
+            </ul>   
+            
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

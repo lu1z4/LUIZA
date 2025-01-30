@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="/css/Styles_Luiza.css">
+    <title>Catalogo De Filmes</title>
+
+</head>
+<body>
+    <header>
+        <h1><span>Como se Fosse a Primeira Vez</span> </h1>
+    </header>
+    <div class="contrainer">
+        <section class="intro">
+            <p>Comédia/Romance</p>
+            <p>Livre</p>
+        </section>
+    </div>
+       <section class="category">
+        <h2></h2>
+        <div class="grid">
+            <div class="card">
+                <a href="https://youtu.be/YuwH_MHGYdA?feature=shared" target="_blank" alt="Filme 1">
+                    <img src="https://ilovealiancas.com.br/wp-content/uploads/2023/05/filme-romantico-como-se-fosse-a-primeira-vez-667x800.jpg" alt="" width="500">
+                </a>
+                <p>Henry Roth é um veterinário paquerador que vive no Havaí e famoso pelo grande número de turistas que conquista. Seu novo alvo é Lucy Whitmore, que mora no local e por quem Henry se apaixona perdidamente. 
+                    No entanto, Lucy sofre de falta de memória de curto prazo e se esquece rapidamente de fatos que acabaram de acontecer.</p>
+            </div>
+            <section class="category">
+                <h2>Elenco</h2>
+                <div class="grid">
+                    <div class="atores">
+                        <img src="https://br.web.img3.acsta.net/c_310_420/pictures/17/06/20/16/57/103535.jpg" alt="" width="150">
+                        <h3>Adam Sandler</h3>
+                        <p><u>Interpreta</u>: Henry Roth</p>
+                
+                    </div>
+                    <div class="atores">
+                        <img src="https://images.mubicdn.net/images/cast_member/3077/cache-2413-1580154459/image-w856.jpg" alt="" width="170">
+                        <h3>Drew Barrymore</h3>
+                        <p><u>Interpreta</u>: Lucy Whitmore </p>
+                    </div>
+                    <div class="atores">
+                        <img src="https://m.media-amazon.com/images/M/MV5BMTg0MDE4MTE0MF5BMl5BanBnXkFtZTcwOTYyOTM3MQ@@._V1_FMjpg_UX1000_.jpg" alt="" width="136">
+                        <h3>Rob Schneider</h3>
+                        <p><u>Interpreta</u>: Ula</p>
+                    </div>
+                    <div class="atores">
+                        <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/280292_v9_ba.jpg" alt="" width="150">
+                        <h3>Lusia Strus</h3>
+                        <p><u>Interpreta</u>: Alexa</p>
+                    </div>
+                </div>
+            </section>
+            <ul>
+                <strong>Informações:</strong>
+                 <p>Data de lançamento: 13 de fevereiro de 2004</p>
+                 <p>Diretor: Peter Segal</p>
+                 <p> Música composta por: Teddy Castellucci</p>
+            </ul>   
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
