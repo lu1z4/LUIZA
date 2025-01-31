@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="/css/Styles_Luiza.css">
+    <title>Catalogo De Filmes</title>
+
+</head>
+<body>
+    <header>
+        <h1><span>A Nova Cinderela</span> </h1>
+    </header>
+    <div class="contrainer">
+        <section class="intro">
+            <p>Romance/Comédia</p>
+            <P>+14</P>
+        </section>
+    </div>
+       <section class="category">
+        <div class="grid">
+            <div class="card">
+                <a href="https://youtu.be/8iAfIoFSNEo?feature=shared" target="_blank" alt="Filme 1" >
+                    <img src="https://image.tmdb.org/t/p/w500/bf9pjFID3iPmKp31gVRiHN0nK1R.jpg" alt="" width="350">
+                </a>
+                <p>Sam é maltratada pela madrasta e sonha em estudar em Princeton. Ela conhece o seu príncipe encantado pela internet, que é o menino mais popular da escola. A história. Cinderela era filha de um comerciante rico. Depois que seu pai morreu, sua madrasta tomou conta da casa que era de Cinderela. Cinderela então, passou a viver com sua madrasta malvada.</p>
+            </div>
+            <section class="category">
+                <h2>Elenco</h2>
+                <div class="grid">
+                    <div class="atores">
+                        <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/165552_v9_bc.jpg" alt="" width="150">
+                        <h3>Hilary Duff</h3>
+                        <p><u>Interpreta</u>: Sam Montgomery </p>
+                
+                    </div>
+                    <div class="atores">
+                        <img src="https://preview.redd.it/young-chad-michael-murray-v0-utbl1ufy8hfa1.jpg?width=640&crop=smart&auto=webp&s=7920ae1713b78683d9bacb7f57802354cfc333f4" alt="" width="160">
+                        <h3>Chad Michael Murray</h3>
+                        <p><u>Interpreta</u>: Austin Ames </p>
+                    </div>
+                    <div class="atores">
+                        <img src="" alt="" width="150">
+                        <h3>Jennifer Coolidge</h3>
+                        <p><u>Interpreta</u>: Fiona </p>
+                    </div>
+                    <div class="atores">
+                        <img src="" alt="" width="150">
+                        <h3></h3>
+                        <p>Interpreta </p>
+                    </div>
+                </div>
+            </section>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

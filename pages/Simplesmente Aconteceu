@@ -37,22 +37,28 @@
                 
                     </div>
                     <div class="atores">
-                        <img src="" alt="" width="400px">
-                        <h3></h3>
-                        <p>Interpreta </p>
+                        <img src="https://br.web.img3.acsta.net/pictures/15/07/10/15/25/291039.jpg" alt="" width="150">
+                        <h3>Sam Claflin</h3>
+                        <p><u>Interpreta</u>: Alex Stewart</p>
                     </div>
                     <div class="atores">
-                        <img src="" alt="" width="400px">
-                        <h3></h3>
-                        <p>Interpreta </p>
+                        <img src="https://br.web.img3.acsta.net/c_310_420/pictures/19/06/24/22/36/5978997.jpg" alt="" width="150">
+                        <h3>Christian Cooke</h3>
+                        <p><u>Interpreta</u>: Greg</p>
                     </div>
                     <div class="atores">
-                        <img src="" alt="" width="400px">
-                        <h3></h3>
-                        <p>Interpreta </p>
+                        <img src="https://static.stealthelook.com.br/wp-content/uploads/2023/03/Photo-shared-by-Suki-Waterhouse-on-October-10-2021-tagging-@kattthompson-and-@charlottetilbury..jpg" alt="" width="160">
+                        <h3>Suki Waterhouse</h3>
+                        <p><u>Interpreta</u>: Beathany Williams</p>
                     </div>
                 </div>
             </section>
+            <ul>
+                <strong>Informações:</strong>
+                 <p>Data de lançamento: 6 de novembro de 2014</p>
+                 <p>Diretor: Christian Ditter</p>
+                 <p>Adaptação de: Where Rainbows End</p>
+            </ul>   
     <footer>
 
     </footer>
