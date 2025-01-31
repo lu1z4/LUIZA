@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff0f0;
+    background-color: #fae6f6;
     color: #000000;
 }
 
@@ -34,6 +34,7 @@ h1, h2 {
 }
 
 .category {
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -45,18 +46,18 @@ h1, h2 {
 }
 
 .card {
-    background: rgb(255, 243, 243);
-    border: 1px solid #fae7e7;
+    background: rgb(240, 178, 222);
+    border: 1px solid #e7d7e6;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(26, 25, 25, 0.1);
     overflow: hidden;
     max-width: 300px;
     text-align: center;
 }
  
 .atores{
-    background: rgb(255, 243, 243);
-    border: 1px solid #fae7e7;
+    background: rgb(190, 144, 180);
+    border: 1px solid #000000;
     border-radius: 8px;
     box-shadow: o 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -81,7 +82,7 @@ h1, h2 {
 }
 
 .form-section {
-    background: #fcefef;
+    background: #ffffff;
     padding: 20px;
     border: 1px solid #fffcfc;
     border-radius: 8px;
