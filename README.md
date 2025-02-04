@@ -83,7 +83,7 @@ Depois você escolher se o seu repositorio, seja publico ou privado e logo após
 <li> ls
 <li> cat .\pasta.pub
 <li> git clone (+ codigo ssh do seu github)
- <li> (Entrar na pasta Docments e pasta com seu nome)
+<li> (Entrar na pasta Docments e pasta com seu nome)
 <li> code .
 
 `git status`

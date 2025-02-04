@@ -1,0 +1,166 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fae6f6;
+    color: #000000;
+}
+
+header {
+    background-color: #f3b5dc;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+    background: #ffe2ed;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.category {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: rgb(240, 178, 222);
+    border: 1px solid #e7d7e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(26, 25, 25, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+}
+ 
+.atores{
+    background: rgb(190, 144, 180);
+    border: 1px solid #000000;
+    border-radius: 8px;
+    box-shadow: o 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 150px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #000000;
+    margin: 0 10px 10px;
+}
+
+.form-section {
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #fffcfc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(253, 249, 249, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color:#e9b8dd ;
+    color: #000000;
+    transition: border-color 0.3;
+}
+
+form select:focus {
+    border-color: #ffffff;
+    outline: none;
+
+}
+form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color:#f5dbee ;
+    color: #000000;
+    transition: border-color 0.3;
+}
+
+form button {
+    padding: 10px;
+    background-color: #ff71ecd0;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #bb95e4;
+}
+
+footer {
+    background-color: #9673e698;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
