@@ -13,11 +13,12 @@ body{
     background-color: hsl(300, 44%, 80%);
     color: aliceblue;
     transition: all 0.3 ease-in-out;
-     }
-     p{
-        background-position: right;
-        color: aliceblue;
-     }
-     img{
-        background-position: center;
-     }
+}
+
+.container{
+
+}
+
+.intro{
+    
+}

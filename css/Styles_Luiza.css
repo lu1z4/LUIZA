@@ -14,10 +14,11 @@ body{
     color: aliceblue;
     transition: all 0.3 ease-in-out;
      }
-     header {
-        background-color: #ffffff;
-        color: rgb(255, 255, 255);
-        text-align: center;
-        padding: 20px;
-        box-shadow: 0 4px 6px rgba(255, 255, 255, 0);
+
+ header {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0);
     }
