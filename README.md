@@ -1,7 +1,7 @@
 # MANUAL DE UTILIZAÇÃO DO SISTEMA/SITE
 ## Capitulo 1
 ###
-```
+
 Instalar o git
 <p aling="center">Selecione o sistema operacional da sua máquina, em seguida faça o download.</p>
 <br>
@@ -9,7 +9,8 @@ Instalar o git
 <img src="docs/img/Captura de tela 2025-01-24 094111.png" alt="" width="400"> 
 </a> 
 </p>
-    
+
+```
 git  --version<
 git config--global user.name
 git confing --global user.email
@@ -59,19 +60,21 @@ Depois você escolher se o seu repositorio, seja publico ou privado e logo após
 ### Capitulo 4 - Alterando Master para Develop
 ###
 ```
- git pull origin (nome da branch) 
+ git pull origin master 
  git branch
- git checkout (nome da branch)
+ git checkout develop
  git branch
- git meger (nome da branch)
- git push -u origin (nome da branch)
- git meger (nome da branch)
- git checkout master
- git merge develop
- git push -u origin master
 ```
 
- ## Capitulo 5 - Trabalhando com o mesmo repertorio em dispositivos diferentes  
+### Capitulo 5 - Envio de Arquivo de uma branch para outra
+###
+```
+git merge master
+git checkout master
+git merge develop
+git push -u origin master
+```
+ ## Capitulo 6 - Trabalhando com o mesmo repertorio em dispositivos diferentes  
 ###
 ```
  Instalar GitHub
