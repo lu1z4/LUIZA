@@ -1,6 +1,7 @@
 # MANUAL DE UTILIZAÇÃO DO SISTEMA/SITE
 ## Capitulo 1
 ###
+```
 Instalar o git
 <p aling="center">Selecione o sistema operacional da sua máquina, em seguida faça o download.</p>
 <br>
@@ -9,30 +10,28 @@ Instalar o git
 </a> 
 </p>
     
+git  --version<
+git config--global user.name
+git confing --global user.email
+shh-keygen (Criador de senhar)
+cd. (Para entrar)  cd..(Para voltar)
+ls (Para vizualização das pastas)
+```
 
-<ul>
-<li>git  --version</li>
-<li>git config--global user.name</li>
-<li>git confing --global user.email</li>
-<li>shh-keygen (Criador de senhar)</li>
-<li>cd. (Para entrar)  cd..(Para voltar)</li>
-<li>ls (Para vizualização das pastas)</li>
-</ul>
 
 
 ### Comandos Administrativos do Git
-`
-<ul>
-<li>git status</li>
-<li>git add index.thml or git add .</li>
-<li>git commit -m "Mensagem do desenvolvedor" ex: "update file README"</li>
-<li>git push -u origin master</li>
-`
-</ul>
+````
+git status
+git add index.thml or git add .
+git commit -m "Mensagem do desenvolvedor" ex: "update file README"
+git push -u origin master
+```
+
 
 ## Capitulo 2 - Criando repositorio do git 
 ###
-`
+```
 <p align= "center"> 
 
 
@@ -44,46 +43,51 @@ Depois você escolher se o seu repositorio, seja publico ou privado e logo após
 
 <img src="docs/img/Captura de tela 2025-01-24 094245.png" width="400" alt="">
 
-
-
 </p>
+```
 
-`
 ## Capitulo 3 - Subindo arquivos no git 
 ###
-<ul>
-
-<li> git status </li>
-<li> git add . </li>
-<li> git status </li>
-<li> git commit -m commit " Update file Readme" </li>
-<li> git branch git push -u origin master </li>
-
-</ul>
-`
+````
+ git status 
+ git add . 
+ git status 
+ git commit -m commit " Update file Readme"
+ git branch git push -u origin master
+```
 
 ### Capitulo 4 - Alterando Master para Develop
 ###
-<li> git branch</li>
-<li> git branch develop</li>
-<li> git branch</li>
-<li> git pull origin master</li>
+```
+ git pull origin (nome da branch) 
+ git branch
+ git checkout (nome da branch)
+ git branch
+ git meger (nome da branch)
+ git push -u origin (nome da branch)
+ git meger (nome da branch)
+ git checkout master
+ git merge develop
+ git push -u origin master
+```
 
  ## Capitulo 5 - Trabalhando com o mesmo repertorio em dispositivos diferentes  
 ###
-<li> Instalar GitHub
-<li> Reiniciar computador
+```
+ Instalar GitHub
+Reiniciar computador
 <li> Instalar Visual Code Studio
  
-<li> git --version
-<li> git config --global user.name "Nome de usuario"
-<li> git config --global user.email Email utilizado
-<li> ssh keygen (Enter e digitar a senha duas vezes)
-<li> cd .\.ssh
-<li> ls
-<li> cat .\pasta.pub
-<li> git clone (+ codigo ssh do seu github)
-<li> (Entrar na pasta Docments e pasta com seu nome)
-<li> code .
+git --version
+git config --global user.name "Nome de usuario"
+git config --global user.email Email utilizado
+ssh keygen (Enter e digitar a senha duas vezes)
+cd .\.ssh
+ls
+cat .\pasta.pub
+git clone (+ codigo ssh do seu github)
+(Entrar na pasta Docments e pasta com seu nome)
+code .
 
 `git status`
+```
