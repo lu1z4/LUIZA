@@ -21,7 +21,7 @@ ls (Para vizualização das pastas)
 
 
 ### Comandos Administrativos do Git
-````
+```
 git status
 git add index.thml or git add .
 git commit -m "Mensagem do desenvolvedor" ex: "update file README"
@@ -48,7 +48,7 @@ Depois você escolher se o seu repositorio, seja publico ou privado e logo após
 
 ## Capitulo 3 - Subindo arquivos no git 
 ###
-````
+```
  git status 
  git add . 
  git status 
@@ -76,7 +76,7 @@ Depois você escolher se o seu repositorio, seja publico ou privado e logo após
 ```
  Instalar GitHub
 Reiniciar computador
-<li> Instalar Visual Code Studio
+ Instalar Visual Code Studio
  
 git --version
 git config --global user.name "Nome de usuario"
@@ -88,6 +88,4 @@ cat .\pasta.pub
 git clone (+ codigo ssh do seu github)
 (Entrar na pasta Docments e pasta com seu nome)
 code .
-
-`git status`
 ```
