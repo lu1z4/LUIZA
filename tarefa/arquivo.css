@@ -10,13 +10,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(247, 227, 241);
+    background-color: rgb(253, 241, 249);
     color: rgb(0, 0, 0);
     transition: all 0.3 ease-in-out;
     }
 
 header {
-    background-color: #f3f3f3;
+    background-color: #ffffff;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 20px;
@@ -24,8 +24,8 @@ header {
 }
 
 header{
-    background-color: hsl(300, 57%, 82%);
-    color: #0e0d0d;
+    background-color: hsl(300, 62%, 80%);
+    color: #000000;
     text-align: center;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(rgb(0, 0, 0), green, blue, alpha);
@@ -51,7 +51,7 @@ h1:hover,h2:hover{
 .intro{
      text-align: center;
      margin-bottom: 30px;
-     background: #f2d1f8;
+     background: #f6cffd;
      padding: 15px;
      border-radius: 8px;   
 }
@@ -69,7 +69,7 @@ h1:hover,h2:hover{
 }
 
 .card{
-    background: #f7defc;
+    background: #fae1ff;
     border: 1px solid #e2a6de;
     border: 8px;
     box-shadow: 0 4px 6px rgba(26, 25, 25, 0.1);
@@ -116,7 +116,7 @@ form label {
 }
 
 form input {
-    background-color: #ebcae9;
+    background-color: #ffffff;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #000000;
@@ -128,14 +128,14 @@ form select {
     margin-bottom: 15px;
     border: 1px solid #000000;
     border-radius: 5px;
-    background-color:#e7c1de ;
+    cursor: pointer;
+    background-color:#ffffff ;
     color: #000000;
     transition: border-color 0.3;
 }
 
-
 form select:focus {
-    border-color: #eee3e3;
+    border-color: #ffffff;
     outline: none;
 }
 
@@ -144,7 +144,7 @@ form textarea {
     margin-bottom: 15px;
     border: 1px solid #000000;
     border-radius: 5px;
-    background-color:#f5dbee ;
+    background-color:#ffffff ;
     color: #000000;
     transition: border-color 0.3;
 }
