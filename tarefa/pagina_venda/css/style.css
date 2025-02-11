@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+#produtos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap:20px;
+}
+
+.produtos{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.produto{
+    width: 100%;
+}
+
+.produto img{
+    max-width: 100%;
+    height: auto;
+}
+
+#carrinho{
+    list-style: none;
+    padding: 0;
+}
+
+#carrinho li{
+   margin: 10px;
+}

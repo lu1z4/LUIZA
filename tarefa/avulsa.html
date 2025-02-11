@@ -1,289 +1,32 @@
 <!DOCTYPE html>
-<!--DOCTYPE html = "Ele indica para o navegador qual versão do HTML deve ser utilizada para exibir a página."-->
 <html lang="pt-br">
-<!--Inicio do html = "Funciona como uma espécie de esqueleto ou estrutura básica que define como organizar e exibir os elementos de uma página."-->>
 <head>
-    <!--inicio da HEAD = "Providencia informações gerais (metadados) sobre o documento, incluindo seu título e links para scripts e folhas de estilos."-->
-    <meta charset="UTF-8">
-    <!--meta charset = "Define a codificação de caracteres do documento como UTF-8 que é binaria"-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--name="viewreport" = "Especifica o tipo de metodo que esta sendo definido"-->
-    <!--content= "Define as propriedades da viewreport"-->
-    <!--width=device-width = "Define a largura do viewreport igual a do dispositivo"-->
-    <!--initial-scale=1.0 = "Nivel de zoom da pagina quando iniciada"-->
-    <title>Catálogo de Mídias</title>
-    <!--title = "Titulo do documento"-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <!--link href = "Vincula a recursos externos"-->
-    <!--rel= "stylesheet" = "Especifica a relação entre html e o que foi vinculado.Neste caso, indica uma folha de estilo."-->
+    <title>Calculadora</title>
     <link rel="stylesheet" href="arquivo.css">
-    <!--link rel= "stylesheet"= Informa o arquivo especifico-->
-    <!--href= styles.css = "Especifica o caminho para o arquivo"-->
-    <script src="js/script.js"></script>
-    <!--script src = "Adiciona o javaScript ao projeto e o source especifica o caminho"-->
 </head>
-<!--Fim da HEAD-->
 <body>
-    <!--body = "Contém o corpo de um documento HTML, que é exibido pelo navegador em sua janela, ou seja, todo o conteúdo visível do site."-->
-    <header>
-        <!--header = "O elemento header é um bloco de conteúdo que pode conter um ou mais elementos h1 até , h6 , campo de busca, elementos de navegação, um logo ou banner, uma introdução, um pequeno prefácio ou um índice em formato de lista."-->
-        <h1>Catálogo de Filmes</h1>
-        <!--h1 = "É a mais importante da página e deve ser atribuída ao título principal do conteúdo."-->
-        <p>Explore os melhores filmes de Romance! <i class="bi bi-suit-heart-fill"></i></p>
-        <!--p = "A tag "p" é utilizada para demarcar um parágrafo."-->
-        <!--i = "representa uma parte do texto que é destacada do restante por algum motivo"-->
-    </header>
-    <!--header = "Fim da header"-->
-
-    <div class="container">
-        <!--Inicio da div class="container" = "Separar os conteúdos do código HTML em divisões de espaço/conjunto."-->
-        <!--container = "Centralizador que limita largura"-->
-        <section class="intro">
-            <!--Inicio da section class="intro" = "Representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo."-->
-            <!--intro = ""-->
-            <h2>Sobre o Catálogo</h2>
-            <!--h2 = "Representam os subtítulos."-->
-            <p>Este catálogo reúne filmes de romance que exploram diferentes aspectos do amor, desde encontros apaixonantes até os desafios dos relacionamentos. Histórias emocionantes que oferecem magia, sentimentos profundos e momentos inesquecíveis, perfeitos para quem busca uma experiência cinematográfica tocante e envolvente.</p>
-            <!--p = "Utilizada para demarcar um parágrafo"-->
-        </section>
-        <!--section = "Fim da section"-->
-
-        <section class="category">
-            <!--Inicio da section class="category" = "Representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo."-->
-            <h2>Filmes <i class="bi bi-search-heart"></i></h2>
-            <!--h2 = "Representam os subtítulos."-->
-            <!--i = "Representa uma parte do texto que é destacada do restante"-->
-            <div class="grid">
-               <!--Inicio da div class="grid" = "Separar os conteúdos do código HTML em divisões de espaço/conjunto."--> 
-                <div class="card">
-                    <!--Inicio da div class="card" = "separar os conteúdos do código HTML em divisões de espaço/conjunto."-->
-                    <a href="pages/filmes.html" target="_blank">
-                        <!--a href = "É usado no HTML para fazer referência a uma URL externa, seja um link ou um arquivo."-->
-                        <!--target="blank" = "Gera um comando para o navegador abrir uma nova guia ou janela quando o usuário clica nesse link. "-->
-                    <img src="https://i0.wp.com/www.cinemadebuteco.com.br/wp-content/uploads/2016/06/filmes-de-romance-dos-anos-2000-como-perder-um-homem-em-dez-dias.jpg" alt="Filme 1" width="300">
-                     <!--img src = "É utilizado para inserir imagens em uma página HTML."-->
-                     <!--alt = " É utilizado para descrever o conteúdo de uma imagem."-->
-                     <!--width = "Determina a largura da área de conteúdo de um elemento."-->
-                    </a>
-                    <!--Fim da tag-->
-                    <h3>Como Perder um Homem em 10 Dias</h3>
-                    <!--h3 = "É o elemento utilizado para subtítulos de nível inferior, geralmente usados dentro das seções criadas pelos H2s"-->
-                    <p>Ben é um publicitário que aposta com o chefe que faz qualquer mulher se apaixonar por ele em dez dias. Se conseguir, será o responsável por uma cobiçada campanha de diamantes.
-                        Andie é uma jornalista que, por causa de uma matéria, está decidida a infernizar a vida de qualquer homem que se aproximar. Os dois se conhecem em um bar.</p> 
-                </div>
-                <!--Fim da div-->        
-                <div class="card">
-                    <!--Inicio da div class="card" = "separar os conteúdos do código HTML em divisões de espaço/conjunto."-->
-                    <a href="pages/A culpa é das estrelas" target="_blank">
-                        <!--a href = "É usado no HTML para fazer referência a uma URL externa, seja um link ou um arquivo."-->
-                        <!--target="blank" = "Gera um comando para o navegador abrir uma nova guia ou janela quando o usuário clica nesse link. "-->
-                    <img src="https://i.pinimg.com/236x/8b/e1/f4/8be1f44589e36cc24a31ab609db480d3.jpg" alt="Filme 2" width="300">
-                    <!--img src = "É utilizado para inserir imagens em uma página HTML."-->
-                    <!--alt = " É utilizado para descrever o conteúdo de uma imagem."-->
-                    <!--width = "Determina a largura da área de conteúdo de um elemento."-->
-                    </a>
-                    <!--Fim da tag-->
-                    <h3>A Culpa é das Estrelas</h3>
-                    <!--h3 = "É o elemento utilizado para subtítulos de nível inferior, geralmente usados dentro das seções criadas pelos H2s" -->
-                    <p>Hazel Grace Lancaster e Augustus Waters são dois adolescentes que se conhecem em um grupo de apoio para pacientes com câncer. 
-                        Por causa da doença, Hazel sempre descartou a ideia de se envolver amorosamente, mas acaba cedendo ao se apaixonar por Augustus. Juntos, eles viajam para Amsterdã, onde embarcam em uma jornada inesquecível. Uma trama inesquecivel.</p>
-                    <!--p = "Utilizada para demarcar um parágrafo"-->
-                </div>
-                <!--Fim da div-->
-            </div>
-            <!--Fim da div-->
-        </section>
-        <!--Fim da section-->
-        <section class="category">
-        <!--Inicio da section class="category" = "Representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo."-->
-            <h2> <i class=></i></h2>
-             <!--h2 = "Representam os subtítulos."-->
-             <!--i = "Representa uma parte do texto que é destacada do restante"-->
-            <p></p>
-             <!--p = "Utilizada para demarcar um parágrafo"-->
-            <div class="grid">
-                 <!--Inicio da div class="grid" = "Separar os conteúdos do código HTML em divisões de espaço/conjunto."--> 
-                <div class="card">
-                    <!--Inicio da div class="card" = "separar os conteúdos do código HTML em divisões de espaço/conjunto."-->
-                    <a href="pages/Como eu era antes de você" target="_blank">
-                        <!--a href = "É usado no HTML para fazer referência a uma URL externa, seja um link ou um arquivo."-->
-                        <!--target="blank" = "Gera um comando para o navegador abrir uma nova guia ou janela quando o usuário clica nesse link. "-->
-                    <img src="https://br.web.img3.acsta.net/c_310_420/pictures/16/02/03/19/11/303307.jpg" alt="Música 1" width="300">
-                    <!--img src = "É utilizado para inserir imagens em uma página HTML."-->
-                    <!--alt = " É utilizado para descrever o conteúdo de uma imagem."-->
-                    <!--width = "Determina a largura da área de conteúdo de um elemento."-->
-                    </a>
-                    <!--Fim da tag-->
-                    <h3>Como eu era antes de você</h3>
-                    <!--h3 = "É o elemento utilizado para subtítulos de nível inferior, geralmente usados dentro das seções criadas pelos H2s" -->
-                    <p>De origem modesta e sem grandes aspirações, a peculiar Louisa Clark é contratada para ser cuidadora de Will, um jovem tetraplégico depressivo e cínico. Will (vivido por Sam Claflin) é um jovem rico e bem sucedido, que do dia para a noite vê sua vida mudar completamente.</p>
-                    <!--p = "Utilizada para demarcar um parágrafo"-->
-                </div>
-                <!--Fim da div-->
-                <div class="card">
-                <!--Inicio da div class="card" = "separar os conteúdos do código HTML em divisões de espaço/conjunto."-->
-                    <a href="pages/Como se fosse a primeira vez" target="_blank">
-                        <!--a href = "É usado no HTML para fazer referência a uma URL externa, seja um link ou um arquivo."-->
-                        <!--target="blank" = "Gera um comando para o navegador abrir uma nova guia ou janela quando o usuário clica nesse link. "-->
-                    <img src="https://ilovealiancas.com.br/wp-content/uploads/2023/05/filme-romantico-como-se-fosse-a-primeira-vez-667x800.jpg" alt="Música 2" width="400">
-                    <!--img src = "É utilizado para inserir imagens em uma página HTML."-->
-                    <!--alt = " É utilizado para descrever o conteúdo de uma imagem."-->
-                    <!--width = "Determina a largura da área de conteúdo de um elemento."-->
-                    </a>
-                    <!--Fim da tag-->
-                    <h3>Como se fosse a primeira vez</h3>
-                    <!--h3 = "É o elemento utilizado para subtítulos de nível inferior, geralmente usados dentro das seções criadas pelos H2s" -->
-                    <p>Henry Roth é um veterinário paquerador que vive no Havaí e famoso pelo grande número de turistas que conquista. Seu novo alvo é Lucy Whitmore, que mora no local e por quem Henry se apaixona perdidamente. 
-                        No entanto, Lucy sofre de falta de memória de curto prazo e se esquece rapidamente de fatos que acabaram de acontecer.</p>
-                        <!--p = "Utilizada para demarcar um parágrafo"-->
-                </div>
-                <!--Fim da div-->
-            </div>
-            <!--Fim da div-->
-        </section>
-        <!--Fim da section-->
-
-        <section class="category">
-        <!--Inicio da section class="category" = "Representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo."-->
-            <h2> <i class=></i></h2>
-             <!--h2 = "Representam os subtítulos."-->
-             <!--i = "Representa uma parte do texto que é destacada do restante"-->
-            <p></p>
-            <!--p = "Utilizada para demarcar um parágrafo"-->
-            <div class="grid">
-            <!--Inicio da div class="grid" = "Separar os conteúdos do código HTML em divisões de espaço/conjunto."--> 
-                <div class="card">
-                <!--Inicio da div class="card" = "separar os conteúdos do código HTML em divisões de espaço/conjunto."-->
-                    <a href="pages/Simplesmente Aconteceu" target="_blank">
-                    <!--a href = "É usado no HTML para fazer referência a uma URL externa, seja um link ou um arquivo."-->
-                    <!--target="blank" = "Gera um comando para o navegador abrir uma nova guia ou janela quando o usuário clica nesse link. "-->
-                    <img src="https://br.web.img3.acsta.net/pictures/14/12/11/15/29/051042.jpg" alt="Podcast" width="300">
-                    <!--img src = "É utilizado para inserir imagens em uma página HTML."-->
-                    <!--alt = " É utilizado para descrever o conteúdo de uma imagem."-->
-                    <!--width = "Determina a largura da área de conteúdo de um elemento."-->
-                    </a>
-                    <!--Fim da tag-->
-                    <h3>Simplesmente Aconteceu</h3>
-                    <!--h3 = "É o elemento utilizado para subtítulos de nível inferior, geralmente usados dentro das seções criadas pelos H2s" -->
-                    <p>Alex e Rosie são amigos inseparáveis que cresceram juntos em Londres, compartilhando entre si suas melhores experiências. Tudo muda quando Alex ganha uma bolsa de estudos e passa a morar nos EUA.
-                        Separados, seus caminhos agora são outros. Mas nos tempos de hoje é impossível não se conectar. E, em se tratando de amor, o difícil é fazer as escolhas certas.</p>
-                    <!--p = "Utilizada para demarcar um parágrafo"-->
-                </div>
-                <!--Fim da div-->
-                <div class="card">
-                <!--Inicio da div class="card" = "separar os conteúdos do código HTML em divisões de espaço/conjunto."-->
-                    <a href="pages/A Nova Cinderela" target="_blank">
-                    <!--a href = "É usado no HTML para fazer referência a uma URL externa, seja um link ou um arquivo."-->
-                    <!--target="blank" = "Gera um comando para o navegador abrir uma nova guia ou janela quando o usuário clica nesse link. "-->
-                    <img src="https://image.tmdb.org/t/p/w500/bf9pjFID3iPmKp31gVRiHN0nK1R.jpg" alt="Documentário" width="300">
-                    <!--img src = "É utilizado para inserir imagens em uma página HTML."-->
-                    <!--alt = " É utilizado para descrever o conteúdo de uma imagem."-->
-                    <!--width = "Determina a largura da área de conteúdo de um elemento."-->
-                    </a>
-                     <!--Fim da tag-->
-                    <h3>A Nova Cinderela</h3>
-                    <!--h3 = "É o elemento utilizado para subtítulos de nível inferior, geralmente usados dentro das seções criadas pelos H2s" -->
-                    <p>Sam é maltratada pela madrasta e sonha em estudar em Princeton. Ela conhece o seu príncipe encantado pela internet, que é o menino mais popular da escola. A história. Cinderela era filha de um comerciante rico. Depois que seu pai morreu, sua madrasta tomou conta da casa que era de Cinderela. Cinderela então, passou a viver com sua madrasta malvada.</p>
-                    <!--p = "Utilizada para demarcar um parágrafo"-->
-                </div>
-                <!--Fim da div--> 
-            </div>
-            <!--Fim da div-->
-        </section>
-        <!--Fim da section-->
-
-        <section class="form-section">
-            <!--Inicio da section class="form-section" = "Representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo."-->
-            <h2>Cadastre-se</h2>
-            <!--h2 = "Representam os subtítulos."-->
-            <form id="userForm">
-            <!--Inicio da form id = "Essa tag indica que estamos iniciando um formulário"-->
-                <label for="name">Nome:</label>
-                <!--label for = "Representa uma legenda para um item em uma interface de usuário. "-->
-                <input type="text" id="name" name="name" placeholder="Seu nome" required>
-                <!--input type = "É usado para criar controles interativos para formulários baseados na web para receber dados do usuário."-->
-
-                <label for="email">E-mail:</label>
-                <!--label for = "Representa uma legenda para um item em uma interface de usuário. "-->
-                <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
-                <!--input type = "É usado para criar controles interativos para formulários baseados na web para receber dados do usuário."-->
-
-                <label for="filme">Qual o seu filme de romance favorito?</label>
-                <!--label for = "Representa uma legenda para um item em uma interface de usuário. "-->
-                <input type="text" id="filme" name="filme" placeholder="nome do filme" required>
-               <!--input type = "É usado para criar controles interativos para formulários baseados na web para receber dados do usuário."-->
-               
-               <select>
-                   <optgroup>
-                    <option>Como Perder um Homem em 10 Dias</option>
-                    <option>A Culpa é das Estrelas</option>
-                    <option>A Nova Cinderela</option>
-                    <option>Como eu era antes de você</option>
-                    <option>Como se fosse a primeira vez</option>
-                    <option>Simplesmente Aconteceu</option>
-                </optgroup>
-                </select> 
-                Senha:<input type="password" name="senha">
-                <!--Adicione um campo de senha-->
-                <input type="checkbox" id="" name="10_dias" value="Como Perder um homem em 10 dias">Como Perder um homem em 10 dias
-                <input type="checkbox" id="" name="Estrelas" value="A Culpa é das Estrelas">A Culpa é das Estrelas
-                <input type="checkbox" id="" name="Antes_de_você" value="Como eu era Antes de Você">Como eu era Antes de Você
-                <input type="checkbox" id="" name="Primeira_vez" value="Como se Fosse a Primeira Vez">Como se Fosse a Primeira Vez
-                <input type="checkbox" id="" name="SImplesmente_Aconteceu" value="Simplesmente Aconteceu">Simplesmente Aconteceu
-                <input type="checkbox" id="" name="Cinderela" value="A Nova Cinderela">A Nova Cinderela
-                <!--Adiciona um botão-->
-                <textarea type="textarea" id="fobservação" name="fobservação" rows="4"></textarea>
-
-                <label for="ftel">Telefnone:</label>
-                <input type="tel" id="ftel" name="ftel" value="( ) 0000-0000">
-                <label for="fsearch">Buscar:</label>                
-                <input type="search" id="fbuscar" name="fbuscar" value="Buscar">
-                <label for="femail">Email:</label>
-                <input type="email" id="femail" name="femail" value="email@site.com">
-                <label for="furl">Url:</label>
-                <input type="url" id="furl" name="furl" value="http://www.site.com.br">
-                <label for="fsearch">Buscar:</label>
-                <input type="search" id="fbuscar" name="fbuscar" value="Buscar">
-                <label for="femail">Email:</label>
-                <input type="email" id="femail" name="femail" value="email@site.com">
-                <label for="furl">Url:</label>
-                <input type="url" id="furl" name="furl" value="http://www.site.com.br">
-                <label for="fweek">Semana:</label>
-                <input type="week" id="fweek" name="fweek" placeholder="">
-                <img src="images/foto.jpg" alt="filmes" width="400" height="320">
-
-
-                <button type="submit">Cadastrar</button>
-                <!--button type = "É um elemento HTML representado visualmente por um botão clicável. É um elemento muito útil em formulários ou em qualquer parte de uma página web."-->
-            </form>
-            <!--Fim da form-->
-
-</section>
-<!--Fim da section-->
-<section class="form-section">
- <!--Inicio da section class="form-section" = "Representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo."-->
-
-    <div id="user-list">
-    <!--div id = "Para agrupar elementos para fins de estilos (usando class ou id), ou porque eles compartilham valores de atributos."-->
-        <h3>Usuários Cadastrados:</h3>
-         <!--h3 = "É o elemento utilizado para subtítulos de nível inferior, geralmente usados dentro das seções criadas pelos H2s" -->
-
-        <ul></ul>
-        <!--ul = "é utilizada para criar uma lista não ordenada, ou seja, com elementos que não precisam aparecer em sequência."-->
-</div>
-<!--Fim da div-->
-</section>
-<!--Fim da section-->
-
-<script src="script.js"></script>
-<!--script src = "São usadas dentro de arquivos HTML para incorporar JavaScript."-->
-    <footer>
-    <!--Inicio do footer = "É a última parte a ser vista por um visitante, que chegou ao final da página"-->
-        <p>Catálogo de Mídias &copy; 2024. Todos os direitos reservados.</p>
-         <!--p = "Utilizada para demarcar um parágrafo"-->
-    </footer>
-    <!--Fim do footer-->
+    <section>
+        <h1>Calculadora de Soma</h1>
+    <form>
+    <div class="card">
+        <label for="numero1"> Numero 1</label>
+        <input type="number" id="numero1" name="numero1"><br>
+    <br>
+       <label for="numero2"> Numero 2</label>
+       <input type="number" id="numero2" name="numero2"><br>
+    <br>
+    <button type="button" onclick="soma()">Soma</button>
+    </form>
+    <p>Resultado: <spam id="resultado"></spam></p>
+    <script>
+        function somar(){
+            let num1=parseFloat(document.getElementByld("numero1").value);
+            let num2=parseFloat(document.getElementByld("numero2").value);
+            let resultado=num1+num2; 
+        document.getElementByld("resultado").textContent=resultado;
+        }
+    </script>
+    </div>
+    </section>
 </body>
-<!--Fim do body-->
 </html>
-<!--Fim do html-->
