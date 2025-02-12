@@ -1,56 +1,51 @@
 const produtos = [
-    {nome: "Produto 1", preço:85.00, imagem:"/image/produto1.jpg"}
-    {nome: "Produto 2", preço:29.00, imagem:"/image/produto2.jpg"}
-    {nome: "Produto 3", preço:45.00, imagem:"/image/produto3.jpg"}
-    {nome: "Produto 4", preço:69.00, imagem:"/image/produto4.jpg"}
-
+    { nome: "Base Dior", preco: 415.00, imagem: "https://http2.mlstatic.com/D_NQ_NP_878971-MLU69427857473_052023-O.webp"},
+    { nome: "Lip Glow Dior", preco: 265.00, imagem: "https://cdn.pacifiko.com/image/cache/catalog/p/Nzg0M2QxMz-500x500.jpg"},
+    { nome: "Rímel Dior", preco: 279.00, imagem: "https://images-americanas.b2w.io/produtos/2418156248/imagens/dior-diorshow-iconic-overcurl-694-brown-mascara-para-cilios-6g/2418156248_1_xlarge.jpg" },
+    { nome: "Sérum Dior", preco: 989.00, imagem: "https://cdn2.primor.eu/media/catalog/product/cache/8d3aba296f7a18b5251ee30fa5db42b2/3/3/3348901624022_0efc.jpg"}
 ];
 
-let carrinho =[];
-
-const produtosDiv = document.gerElementByld("produtos");
+const produtosDiv = document.getElementById("produtos");
 const carrinhoLista = document.getElementById("carrinho");
-const totalSpan = document.getElementById("total");
+const totalElement = document.getElementById("total");
 
-//Função para exibir os produtos na Tela
+let carrinho = [];
+
 function exibirProdutos() {
     produtos.forEach(produto => {
-    const produtoDiv =document.createElement("div");
-    produtosDiv.classList.add("produto");
-    produtoDiv.innerHTML = 
-    <img src="${produto.imagem}" alt="${produto.nome}">
-    <h3>${produto.nome}</h3>
-    <p>Preço: R$ ${produto.preco.toFixed(2)}</p>
-    <button onclik="adicionarApCarrinho (`${produto.name}`, ${produto.preço})">
-        ';
-        produtDiv.appendChild(produtoDiv);
+        const produtoDiv = document.createElement("div");
+        produtoDiv.classList.add("produto");
+        produtoDiv.innerHTML = `
+            <img src="${produto.imagem}" alt="${produto.nome}">
+            <h3>${produto.nome}</h3>
+            <p>Preço: R$ ${produto.preco.toFixed(2)}</p>
+            <button onclick="adicionarAoCarrinho('${produto.nome}', ${produto.preco})">
+            Adicionar ao Carrinho</button>
+        `;
+        produtosDiv.appendChild(produtoDiv);
     });
 }
 
-//Função para adicionar um produto ao carrinho
 function adicionarAoCarrinho(nome, preco) {
-    carrinho.push({nome, preço});
+    carrinho.push({ nome, preco });
     atualizarCarrinho();
 }
 
-function removerDoCarrinho(index){
+function removerDoCarrinho(index) {
     carrinho.splice(index, 1);
-    atualizarCarriho()
+    atualizarCarrinho();
 }
 
-//Função atualiza a exibição do carrinho e o total
 function atualizarCarrinho() {
     carrinhoLista.innerHTML = "";
     let total = 0;
-    carrinho.forEach(item, index) => {
+    carrinho.forEach((item, index) => {
         const itemLista = document.createElement("li");
-        intemLista.textContent = `${item.nome} - R$ ${item.preco.toFixed(2)}`;
+        itemLista.innerHTML = `${item.nome} - R$ ${item.preco.toFixed(2)} <button onclick="removerDoCarrinho(${index})">Remover</button>`;
         carrinhoLista.appendChild(itemLista);
         total += item.preco;
     });
-    totalSpan.textContent = `Total: R$ ${total.toFixed(2)}`;
+    totalElement.textContent = `Total: R$ ${total.toFixed(2)}`;
 }
 
-//Inicializa a exibiçãodos produtos
 exibirProdutos();
-

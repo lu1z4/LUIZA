@@ -16,14 +16,10 @@ body{
     gap:20px;
 }
 
-.produtos{
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-}
-
 .produto{
-    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;    width: 100%;
+    text-align: center;
 }
 
 .produto img{
